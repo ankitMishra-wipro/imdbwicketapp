@@ -1,0 +1,25 @@
+
+<wicket:extend>
+<div wicket:id="help"></div>
+	<div class="panel panel-primary">
+		<div class="panel-heading">Login Form<span><a href="#" class="Label Label-warn pull-right" wicket:id="help_link">Help</a></span></div>
+		<div class="panel-body">
+			<form class="form" wicket:id="loginForm">
+				<label class="label label-primary" wicket:id="username_lable"></label>
+				<input type="text" class="form-control" wicket:id="userName">
+				<label class="label label-primary" wicket:id="password_lable"></label>
+				<input type="password" class="form-control" wicket:id="password">
+				<button class="btn btn-success" wicket:id="login_button">Login</button>
+			</form>
+		</div>
+		<span wicket:id="loginErrMsg"></span>
+		<div class="panel-footer">Footer</div>
+	</div>
+	<table wicket:id="datatable" class="table-striped table-bordered">
+	</table>
+	
+	<table class="table table-striped table-bordered">
+	<tr wicket:id="cells"><span wicket:id="cell">cell content goes here</span>
+	</table>
+</wicket:extend>
+
